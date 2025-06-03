@@ -1,0 +1,102 @@
+<head>
+    <style>
+        body{
+            font-family:Cambria, Cochin, Georgia, serif
+        }
+        .grid-container{
+            display:grid;
+            grid-template-areas: 
+            "header header header"
+            "nav main right"
+            "footer footer footer";
+            grid-template-columns: 1fr 3fr 1fr;
+            gap:10px;
+            padding: 10px;
+        }
+        .header{
+            grid-area: header;
+            background-color: rgb(239, 173, 249);
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav{
+            grid-area: nav;
+            background-color: rgb(234, 171, 205);
+            padding:20px;
+
+        }
+        .main{
+           grid-area:main;
+            background-color: rgb(220, 247, 195);
+            padding:20px; 
+            overflow-y: auto;
+            
+        }
+        .right{
+            grid-area: right;
+            background-color: rgb(183, 219, 242);
+            padding:20px;
+        }
+        .footer{
+            grid-area:footer;
+            background-color: rgb(234, 234, 180);
+            padding: 20px;
+            text-align: center;
+        }
+        a{
+            color: rgb(17, 0, 14);
+            text-decoration: none;
+            display: block;
+            margin: 10px;
+        }
+        h2{
+            margin-top: 40px;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="header">The Constitution of India</div>
+        <div class="nav">
+            <h2>Navigation</h2>
+            <ul>
+            <li><a href="#Introduction">Introduction</a></li>
+            <li><a href="#Preamble">Preamble</a></li>
+            <li><a href="#Fundamental Rights">Fundamental Rights</a></li>
+            <li><a href="#Amendments">Amendments</a></li>
+            <li><a href="#Structure of Government">conclusion</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <h2 id="Introduction">Introduction</h2>
+            <p>he supreme law of the nation, outlining the framework for governance, the structure of the government, and the fundamental rights and duties of citizens.<br> It was adopted by the Constituent Assembly on November 26, 1949, and came into force on January 26, 1950, <br>which is celebrated as Republic Day. The Constitution provides for a parliamentary system of government and is federal in structure with certain unitary features. </p>
+        </p>
+            <h2 id="Preamble">Preamble</h2>
+            <p>The Preamble outlines <strong>the fundamental principles of the Constitution</strong>, including justice, liberty, equality, and fraternity. </p>
+            </p>
+            <h2 id="Fundamental Rights">Fundamental Rights</h2>
+            <p>These are basic<strong>rights guaranteed to all citizens</strong> , including the right to equality, freedom, and the right to a constitutional remedy. </p>
+            </p>
+            <h2 id="Amendments">Amendments</h2>
+            <p>The Constitution can be amended through a specific procedure outlined in the Constitution itself, allowing for adjustments to meet evolving needs. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi architecto tempora expedita cumque, error velit itaque incidunt exercitationem delectus veritatis molestiae non quas est in libero eum provident aliquam cupiditate!</p>
+            </p>
+            
+            <h2 id="Structure of Government">conclusion</h2>
+            <P>The Constitution establishes a parliamentary form of government with a President as the constitutional head, a Council of Ministers led by the Prime Minister, and a two-house parliament (Rajya Sabha and Lok Sabha).</P>
+        </div>
+        <div class="right">
+            <h2>Sidebar</h2>
+            <p><strong>Note:</strong>he Constitution can be amended, but the amendment process is designed to be more difficult than ordinary legislation, ensuring stability. 
+The Supreme Court and the High Courts are independent bodies, responsible for interpreting the Constitution and upholding the rule of law. </p>
+                </p>
+            
+            <p>contact:pradeepa@example.com</p>
+        </div>
+        <div class="footer">
+            &copy;2025 web design lab.All in the websites are reserved.
+        </div>
+    </div>
+</body>
